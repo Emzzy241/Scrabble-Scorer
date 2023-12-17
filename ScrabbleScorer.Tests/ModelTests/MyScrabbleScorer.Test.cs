@@ -46,9 +46,9 @@ namespace ScrabbleScorer.Tests
             Assert.AreEqual(setWord, newScrabble.Word);
         }
         
-        // 4th Test: First path of ScrabbleScoreDeterminer() method
+        // 4th Test: Testing ScrabbleScoreDeterminer() method
         [TestMethod]
-        public void ScrabbleScoreDeterminer_MethodsFirstPath_Void()
+        public void ScrabbleScoreDeterminer_DeterminesScrabbleScore_Int()
         {
             // Arrange
             MyScrabbleScorer newScrabble = new MyScrabbleScorer("bola");
