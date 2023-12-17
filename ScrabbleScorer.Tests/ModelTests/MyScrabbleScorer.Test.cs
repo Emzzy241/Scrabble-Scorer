@@ -46,21 +46,21 @@ namespace ScrabbleScorer.Tests
             Assert.AreEqual(setWord, newScrabble.Word);
         }
         
-        // // 4th Test: First path of ScrabbleScoreDeterminer() method
-        // [TestMethod]
-        // public void ScrabbleScoreDeterminer_MethodsFirstPath_Void()
-        // {
-        //     // Arrange
-        //     MyScrabbleScorer newScrabble = new MyScrabbleScorer("bola");
-        //     int expectedNum = 6;
+        // 4th Test: First path of ScrabbleScoreDeterminer() method
+        [TestMethod]
+        public void ScrabbleScoreDeterminer_MethodsFirstPath_Void()
+        {
+            // Arrange
+            MyScrabbleScorer newScrabble = new MyScrabbleScorer("bola");
+            int expectedNum = 6;
 
-        //     // bola word contains: o, l, a i.e +3 from the first set of cases... And b is from a case where we added 3.. which makes it a total of 6
+            // bola word contains: o, l, a i.e +3 from the first set of cases... And b is from a case where we added 3.. which makes it a total of 6
 
-        //     // Act 
-        //     int returnedNum = newScrabble.ScrabbleScoreDeterminer();
+            // Act 
+            int returnedNum = newScrabble.ScrabbleScoreDeterminer();
 
-        //     // Assert
-        //     Assert.AreEqual(expectedNum, returnedNum);
-        // }
+            // Assert
+            Assert.AreEqual(expectedNum, returnedNum);
+        }
     }
 }
