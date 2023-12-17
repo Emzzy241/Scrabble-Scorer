@@ -31,20 +31,20 @@ namespace ScrabbleScorer.Tests
             Assert.AreEqual(expectedWord, returnedWord);
         }
         
-        // // 3rd Test: Test to set string from Scrabble class
-        // [TestMethod]
-        // public void SetWord_SetsScrabbleWord_Void()
-        // {
-        //     // Arrange
-        //     MyScrabbleScorer newScrabble = new MyScrabbleScorer("bola");
-        //     string setWord = "bola";
+        // 3rd Test: Test to set string from Scrabble class
+        [TestMethod]
+        public void SetWord_SetsScrabbleWord_Void()
+        {
+            // Arrange
+            MyScrabbleScorer newScrabble = new MyScrabbleScorer("bola");
+            string setWord = "bola";
 
-        //     // Act 
-        //     newScrabble.Word = setWord;
+            // Act 
+            newScrabble.Word = setWord;
 
-        //     // Assert
-        //     Assert.AreEqual(setWord, newScrabble.Word);
-        // }
+            // Assert
+            Assert.AreEqual(setWord, newScrabble.Word);
+        }
         
         // // 4th Test: First path of ScrabbleScoreDeterminer() method
         // [TestMethod]
