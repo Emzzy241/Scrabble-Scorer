@@ -5,6 +5,7 @@ namespace ScrabbleScorer.Models
 {
     public class Program
     {
+        // bn=
         static void Main()
         {
             
