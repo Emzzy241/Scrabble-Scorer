@@ -17,19 +17,19 @@ namespace ScrabbleScorer.Tests
         }
 
         // 2nd Test: Test to get string from Scrabble class
-        // [TestMethod]
-        // public void GetWord_GetsScrabbleWord_String()
-        // {
-        //     // Arrange
-        //     MyScrabbleScorer newScrabble = new MyScrabbleScorer("bola");
-        //     string expectedWord = "bola";
+        [TestMethod]
+        public void GetWord_GetsScrabbleWord_String()
+        {
+            // Arrange
+            MyScrabbleScorer newScrabble = new MyScrabbleScorer("bola");
+            string expectedWord = "bola";
 
-        //     // Act 
-        //     string returnedWord = newScrabble.Word;
+            // Act 
+            string returnedWord = newScrabble.Word;
 
-        //     // Assert
-        //     Assert.AreEqual(expectedWord, returnedWord);
-        // }
+            // Assert
+            Assert.AreEqual(expectedWord, returnedWord);
+        }
         
         // // 3rd Test: Test to set string from Scrabble class
         // [TestMethod]
